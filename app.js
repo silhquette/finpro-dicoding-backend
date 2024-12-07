@@ -18,6 +18,10 @@ app.get('/me', (req, res) => {
     res.send('muhammadqiyam')
 })
 
+app.get('/support-system', (req, res) => {
+    res.send('rivanaa54')
+})
+
 /*
 Optional [ROUTE] '/me'
 [Response] => Dicoding username.
